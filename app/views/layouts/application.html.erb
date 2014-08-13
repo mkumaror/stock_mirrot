@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <% request.env['PATH_INFO'].slice! "/" %>
+  <title><%= request.env['PATH_INFO']%></title>
   <meta name="description" content="Description of your site goes here">
   <meta name="keywords" content="keyword1, keyword2, keyword3">
   <%= stylesheet_link_tag    "application", :media => "all" %>
