@@ -307,3 +307,8 @@ a.more:hover {
 .footer ul li a:hover {
 	text-decoration: underline;
 }
+.pricing_row{
+	float: left;
+	width: 959px;
+	margin-top: 50px;
+}
